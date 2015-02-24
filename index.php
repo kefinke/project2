@@ -4,6 +4,6 @@
        <?php require "logic.php"; ?>     
     </head>
     <body>
-        <img src = "'.$image.'"/>    
+        <div id="message"><?php echo $message; ?></div>   
     </body>
 </html>
