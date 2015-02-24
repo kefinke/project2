@@ -4,6 +4,7 @@
        <?php require "logic.php"; ?>     
     </head>
     <body>
-        <div id="message"><?php echo $message; ?></div>   
+        <div id="message"><?php echo $message; ?></div>
+        <img href="<?php $image ?>"/>
     </body>
 </html>
