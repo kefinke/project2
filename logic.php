@@ -3,7 +3,7 @@ $message = "this test worked";
 $image;
 
 date_default_timezone_set("America/New_York");
-$time = date("h:i:sa");
+$time = date("g:i:sa");
 $hour = date("H");
 $image;
 $color = "black";
@@ -15,6 +15,6 @@ if($hour >= 5 && $hour < 11){
     $image = "evening";
 } else if($hour >= 20 || $hour < 5){
     $image = "night";
-    $color = "#FFFF99";
 }
+$image2 = $image."s";
 ?>

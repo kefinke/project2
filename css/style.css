@@ -1,17 +1,65 @@
 body {
-     background-color: #66A3FF;
-     text-align: center;
+    /* background-color: #66A3FF;*/
+    text-align: center;
+    font-family: Amatic, sans-serif;
 }
-h1{
-    font-family: 'Amatic SC', sans-serif;
-    font-size: 150px;
-    position: absolute;
-    display: block;
-    margin-left: 35%;
-    color: <? php echo $color; ?>
+@font-face {
+    font-family: Amatic;
+    src: url(../fonts/AmaticSC-Bold.ttf);
 }
 
-image{
-    position: relative;
-    width: 100%;
+h1{
+    line-height: 230%;
+    font-size: 150px;
+    text-align: center;
+    margin: auto;
+    text-height: auto;
+    height: 404px;
+    width: 1166px;
+    margin-top: 40px;
+    border-radius: 3px;
+}
+
+h2{
+    font-size: 70px;
+    margin-top: 0;
+}
+
+
+#morning{
+    color: #5e435b;
+    background-color: #a57f95;
+}
+#morningh{
+    background-image: url("../images/morning.png");
+    border: 5px solid #5e435b;
+}
+
+#afternoon{
+    color: #7aaa36;
+    background-color: #84c9e4;
+}
+
+#afternoonh{
+    background-image: url("../images/afternoon.png");
+    border: 5px solid #7aaa36;
+}
+
+#evening{
+    color: #464308;
+    background-color: #bea036;    
+}
+
+#eveningh{
+    background-image: url("../images/evening.png");
+    border: 5px solid #464308;
+}
+
+#night{
+    color: #b4b3cf;
+    background-color: #1d0519;
+}
+#nighth{
+    background-image: url("../images/night.png");
+    border: 5px solid #b4b3cf;
 }
