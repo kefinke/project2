@@ -1,5 +1,4 @@
 body {
-    /* background-color: #66A3FF;*/
     text-align: center;
     font-family: Amatic, sans-serif;
 }
@@ -11,10 +10,9 @@ body {
 h1{
     line-height: 230%;
     font-size: 150px;
-    text-align: center;
     margin: auto;
     text-height: auto;
-    height: 404px;
+    height: 403px;
     width: 1166px;
     margin-top: 40px;
     border-radius: 3px;
